@@ -31,3 +31,11 @@ del motorcycles[0] # removing the first item 'honda' from the list.
 print(motorcycles)
 
 # Removing items using the pop() method
+motorcycles = ['honda', 'yamaha', 'suzuki'] # arranged in chronological order lets remove the last bike we purchased and output a statement with it
+last_owned = motorcycles.pop() # this removes the last value from the list and saves it in the last owned variable.
+print(f"The last motorcycle I owned was the {last_owned.title()}") # this outputs a message with the value stored in the last owned variable.
+
+# you can pop items from a list using their index number
+first_owned = motorcycles.pop(0) # this removes the first value in the list with the index zero. 
+print(f"the first motorcycle I owned was the {first_owned.title()}") # using the poped valued in a statement
+
