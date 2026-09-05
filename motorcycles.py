@@ -36,6 +36,26 @@ last_owned = motorcycles.pop() # this removes the last value from the list and s
 print(f"The last motorcycle I owned was the {last_owned.title()}") # this outputs a message with the value stored in the last owned variable.
 
 # you can pop items from a list using their index number
-first_owned = motorcycles.pop(0) # this removes the first value in the list with the index zero. 
-print(f"the first motorcycle I owned was the {first_owned.title()}") # using the poped valued in a statement
+first_owned = motorcycles.pop(0) # this removes the first item on the list with the index zero. 
+print(f"the first motorcycle I owned was the {first_owned.title()}") # using the poped item in a statement
+
+# Using the remove() method.
+# sometimes you may not know the index of the item you want to remove but if you know the value then you make use of the remove() method.
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati'] 
+print(motorcycles) # list before removing item.
+motorcycles.remove('ducati') # this removes 'ducati' from the list of items.
+print(motorcycles) # list after removing item.
+
+# using tbe remove() method to work with a value that's being removed from a list
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+too_expensive = 'ducati' # the value is same as the item being removed from the list 'motorcycles'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print(f'\nA {too_expensive.title()} is too expensive for me.') # ouputing a message to explain why we removed the item.
+
+
+
+
+
 
