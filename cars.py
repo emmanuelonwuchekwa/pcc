@@ -14,4 +14,14 @@ print(f"\nHere's the sorted list:\n{sorted(cars)} ") # temporarily sorts and sho
 print(f"\nHere's the original list again\n{cars}") # outputs the original list showing the previous sorting was temporal.
 # NOTE sorted() method can also take the reverse=True argument.
 
+# printing a list in reverse order.
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.reverse() # this doesn't sort the list it just rearranges the list to a reversed form.
+print(cars) # the order of the list is changed permanently.
+
+# reversing the reverse() method using the reverse() method a second time.
+print(cars) # reversed list
+cars.reverse() # reversing the reversed list.
+print(cars) # prints the original list.
 
