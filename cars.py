@@ -25,3 +25,5 @@ print(cars) # reversed list
 cars.reverse() # reversing the reversed list.
 print(cars) # prints the original list.
 
+# Finding the length of lists
+print(len(cars)) # output the number of items in the list.
