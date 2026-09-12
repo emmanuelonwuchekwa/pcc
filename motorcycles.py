@@ -54,6 +54,10 @@ motorcycles.remove(too_expensive)
 print(motorcycles)
 print(f'\nA {too_expensive.title()} is too expensive for me.') # ouputing a message to explain why we removed the item.
 
+# Avoiding indexing errors while working with lists.
+motorcycles = ['honda', 'yamaha', 'suzuki'] 
+#print(motorcycles[3]) # asking python to print the fourth item on the list, wheras there is none.
+print(motorcycles[-1]) # printing the last item on the list.
 
 
 
